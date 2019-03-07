@@ -34,5 +34,14 @@ namespace EquazioniLibrary
 
             return ret;
         }
+
+        static double Delta(double a, double b, double c)
+        {
+            double ret = 0;
+
+            ret = (b * b) - (4 * a * c);
+
+            return ret;
+        }
     }
 }
