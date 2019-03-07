@@ -43,5 +43,16 @@ namespace EquazioniLibrary
 
             return ret;
         }
+
+        static string EquationDegree1(double a, double b)
+        {
+            string ret;
+
+            ret = Convert.ToString(-b / a);
+            if (a == 0 && b == 0) ret = "Indeterminato";
+            if (a != 0 && b == 0) ret = "Impossibile";
+
+            return ret;
+        }
     }
 }
