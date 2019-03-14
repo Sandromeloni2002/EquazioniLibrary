@@ -8,11 +8,11 @@ namespace EquazioniLibrary
 {
     public class Equazioni
     {
-        static bool IsDetermined(double a, double b)
+        static bool IsDetermined(double a)
         {
             bool ret = false;
 
-            if (a != 0 && b != 0) ret = true;
+            if (a != 0) ret = true;
 
             return ret;
         }
